@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;  
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    background-color: rgb(125, 241, 125);
+    border-radius: 5px;
+    width: 300px;
+    border:none;
+}
+
+input{
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
