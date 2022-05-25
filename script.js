@@ -28,14 +28,14 @@ document.getElementById("false_special_characters").style.display="none";
 
 function lengh_check(password)
 {
-    if (  8<=password.length)
+    if (password.length >= 8)
     {
   document.getElementById("length").style.color='green'
   console.log("true length")
   document.getElementById("true").style.display="inline";
   document.getElementById("false").style.display="none";
     }
-  else if(password.length<8)
+  else 
   {
     console.log("false length")
     document.getElementById("length").style.color= 'red';
