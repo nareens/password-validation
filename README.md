@@ -6,7 +6,7 @@ this project set up during full stack course
 
 ## Features
 
-check your password deppeng on condetions in the page
+check your password match the condetions in the page
 
 
 
